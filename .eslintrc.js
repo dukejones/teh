@@ -1,5 +1,8 @@
 const config = {
-  extends: 'comakery'
+  extends: 'comakery',
+  env: {
+    es6: false,
+  },
 }
 
 module.exports = config

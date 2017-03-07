@@ -327,7 +327,7 @@ escope@^3.6.0:
 
 "eslint-config-comakery@github:CoMakery/eslint-config-comakery#dev":
   version "0.0.4"
-  resolved "https://codeload.github.com/CoMakery/eslint-config-comakery/tar.gz/b382baacb3917f5e137cea6714c974896b277495"
+  resolved "https://codeload.github.com/CoMakery/eslint-config-comakery/tar.gz/ba7bfae07b323a6e085187b8b192becad38daff6"
   dependencies:
     babel-eslint "^7.1.1"
     eslint ">=3.17.1"
