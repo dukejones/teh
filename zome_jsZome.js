@@ -1,13 +1,13 @@
 // function getProperty(x) {return property(x)};
 
 expose('claim', HC.JSON)
-function claim(x) {
-  return commit('trust_atom', x)
+function claim(atom) {
+  return commit('trust_atom', atom)
 }
 
 expose('get', HC.JSON)
 function get(x) {
-
+  // TODO :)
 }
 
 function validate(entry_type, entry, props) {

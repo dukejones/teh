@@ -22,7 +22,7 @@
             "Entries": {
                 "trust_atom": {
                     "Name": "Trust Atom",
-                    "DataFormat": "JSON",
+                    "DataFormat": "json",
                     "Schema": "schema_trust_atom.json",
                     "SchemaHash": {
                         "H": null
