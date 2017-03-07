@@ -1,25 +1,24 @@
 {
-    "title": "Trust Atom Schema",
-    "type": "object",
-    "properties": {
-        "tags": {
-            "type": "array",
-            "items": {
-                "type": "number"
-            }
-        },
-        "creator": {
-            "type": "string"
-        },
-        "target": {
-            "type": "string"
-        },
-        "description": {
-            "type": "string"
-        },
-        "value": {
-            "type": "number"
-        }
-    },
-    "required": ["creator", "target"]
+	"type": "object",
+	"properties": {
+		"tags": {
+			"type": "array",
+			"items" : {
+				"type" : "number"
+			}
+		},
+		"creator": {
+			"type": "string"
+		},
+		"target": {
+			"type": "string"
+		},
+		"description": {
+			"type": "string"
+		},
+		"value": {
+			"type": "number"
+		}
+	},
+	"required": ["creator", "target"]
 }
