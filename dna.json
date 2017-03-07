@@ -1,0 +1,35 @@
+{
+    "Version": 0,
+    "Id": "5b48bc76-02cd-11e7-afe2-14109fdd3a6b",
+    "Name": "teh",
+    "Properties": {
+        "description": "Trust exchange holochain",
+        "language": "en"
+    },
+    "PropertiesSchema": "schema_properties.json",
+    "HashType": "sha2-256",
+    "BasedOn": {
+        "H": null
+    },
+    "Zomes": {
+        "teh_js": {
+            "Name": "teh_js",
+            "Description": "this is a javascript test zome",
+            "Code": "zome_jsZome.js",
+            "CodeHash": {
+                "H": "EiDeY7L4X+Hf3q2ghGRsbO9zL9KKBood9X0Nrbgv0/CM+Q=="
+            },
+            "Entries": {
+                "trust_atom": {
+                    "Name": "Trust Atom",
+                    "DataFormat": "JSON",
+                    "Schema": "schema_trust_atom.json",
+                    "SchemaHash": {
+                        "H": null
+                    }
+                }
+            },
+            "NucleusType": "js"
+        }
+    }
+}
