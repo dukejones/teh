@@ -1,4 +1,3 @@
-// expose("get",HC.STRING);
 // function getProperty(x) {return property(x)};
 
 expose("claim", HC.JSON);
