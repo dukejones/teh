@@ -2,4 +2,4 @@
 
 ## Getting started
 
-hc --debug --verbose clone --force . teh && hc --debug --verbose serve teh
+    hc --debug --verbose clone --force . teh && hc gen chain teh && hc --debug --verbose serve teh
