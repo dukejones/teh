@@ -15,7 +15,8 @@ function claim(params) {
 
   entity(claimId, params.creator)
   entity(claimId, params.target)
-  params.tags.forEach(function addTag(tag) {
+
+  (params.tags || []).forEach(function addTag(tag) {
     entity(claimId, tag)
   })
 
