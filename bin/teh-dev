@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e -x -o pipefail
+
+hc --debug --verbose clone --force . teh
+hc --debug --verbose gen chain teh
+hc --debug --verbose serve teh
