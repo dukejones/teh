@@ -1,24 +1,34 @@
 {
-	"type": "object",
-	"properties": {
-		"tags": {
-			"type": "array",
-			"items" : {
-				"type" : "string"
-			}
-		},
-		"creator": {
-			"type": "string"
-		},
-		"target": {
-			"type": "string"
-		},
-		"description": {
-			"type": "string"
-		},
-		"value": {
-			"type": "number"
-		}
-	},
-	"required": ["creator", "target"]
+    "type": "object",
+    "properties": {
+        "issuer": {
+            "type": "string"
+        },
+        "claim": {
+            "type": "object",
+            "properties": {
+                "keywords": {
+                    "type": "string"
+                },
+                "author": {
+                    "type": "string"
+                },
+                "itemReviewed": {
+                    "type": "string"
+                },
+                "reviewRating": {
+                    "type": "object",
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        },
+                        "ratingValue": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "required": ["creator", "target"]
 }
