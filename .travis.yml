@@ -1,0 +1,20 @@
+os:
+  - linux
+
+language: go
+
+install: false
+
+before_install:
+  - go get -v -u github.com/whyrusleeping/gx
+  - go get -v -u github.com/metacurrency/holochain
+  - cd $GOPATH/src/github.com/metacurrency/holochain && make
+
+script:
+  - hc init testbox
+  - hc --debug --verbose clone --force . teh
+  - hc --debug --verbose test teh
+
+cache:
+    directories:
+        - $GOPATH/src/gx
