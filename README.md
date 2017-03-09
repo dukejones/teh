@@ -2,6 +2,9 @@
 
 ## Getting started
 
-    hc --debug --verbose clone --force . teh && \
-    hc --debug --verbose gen chain teh && \
-    hc --debug --verbose serve teh
+```sh
+git clone git@github.com:CoMakery/teh.git
+cd teh
+./bin/teh-dev
+open http://localhost:3141/
+```
